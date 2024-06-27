@@ -30,8 +30,16 @@
       - **Solution:**
         - add this line ```"type": "module",``` in the package.json file after the line of main property
         - then run the project again
-  - **Run After Set type:module in package.json**
+  - **Run After Adding type:module in package.json**
       - **Problem:**
-        - 
+        - ![image](https://github.com/arsalanmughal23/giaic_teaching_chance_1-ts_inquirer/assets/50748011/0650a60b-8e01-46da-8fb4-a142f6e7887d)
       - **Solution:**
-        - 
+        - write await keyword before inquirer.prompt(
+  - **Run After Write await keyword**
+      - **Problem:**
+        - ![image](https://github.com/arsalanmughal23/giaic_teaching_chance_1-ts_inquirer/assets/50748011/123888ee-7e74-4ad2-b151-c55d70e9f1db)
+      - **Solution:**
+        - set module to es2022 & set target to es2017 or higher
+  - **Run After set tsconfig changes**
+      - Great, it's successfully run
+      - ![image](https://github.com/arsalanmughal23/giaic_teaching_chance_1-ts_inquirer/assets/50748011/54e33e1d-1b5a-44bf-9d74-3f6b98859971)
