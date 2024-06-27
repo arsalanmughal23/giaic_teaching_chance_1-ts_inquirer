@@ -43,3 +43,16 @@
   - **Run After set tsconfig changes**
       - Great, it's successfully run
       - ![image](https://github.com/arsalanmughal23/giaic_teaching_chance_1-ts_inquirer/assets/50748011/54e33e1d-1b5a-44bf-9d74-3f6b98859971)
+
+> ## Step Navigation
+>  - Q: sab ko ye clear hy k inquirer use kis liye kya jata hy?
+>  - install inquirer
+>  - check pkg: package.json
+>  - focus & solve issue: npm i --save-dev @types/inquirer
+>  - check pkg: package.json
+>  - focus & solve issue: set "type": "module" in the package.json
+>  - write code: implement inquirer without using await {name, type, message, choice}
+>  - run code: tsc && node .
+>  - focus & solve issue: inquirer required await keyword
+>  - focus & solve issue: await required set target to es2017 or higher in pkg.json
+>  - run code: great, its working
